@@ -18,6 +18,16 @@ git commit -m "init project"
 git status
 ```
 
+注：  
+仓库分为工作区 暂存区 提交区。   
+- 文件夹即是工作区。  
+- 使用git add 命令添加文件到暂存区（stage）。  
+- 使用git commit 添加文件到版本库？（commit .git文件夹中的快照信息）。
+- git status 可以产看被commit的文件（工作区和暂存区的状态）
+
+![git仓库](/git_2/1.png)
+
+
 `git push origin master `
 
 ```bash
