@@ -1,13 +1,13 @@
 ---
-title: git初探-摆脱GUI
+title: git初探(二)-推送已有代码到远程仓库
 date: 2020-03-12 14:18:00
 tags: 
 - git
 ---
 
-## git初探-尝试摆脱GUI
+推送已有项目代码到远程仓库。
 
-初始化仓库，推送已有代码到远程仓库（ssh）
+### 1.初始化仓库
 ```bash
 //初始化
 git init
@@ -26,8 +26,10 @@ git status
  Please make sure you have the correct access rights
  and the repository exists.
 ```
-在github上创建项目并且拿到对应的空项目的https/ssh路径
-git@github.com:loyalvi/hexo.git
+### 2.创建项目
+在github（gitee/gitlab）上创建新项目，并且拿到对应的空项目的https（http）/ssh路径。  
+
+例如我创建了`git@github.com:loyalvi/hexo.git`这个项目。
 
 ```
 git remote add origin git@github.com:loyalvi/hexo.git
