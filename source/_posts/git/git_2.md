@@ -1,6 +1,7 @@
 ---
 title: git初探(二)-推送已有代码到远程仓库
 date: 2020-03-12 14:18:00
+updated: 2020-03-16 11:18:00
 tags: 
 - git
 ---
@@ -11,32 +12,21 @@ tags:
 ```bash
 //初始化
 git init
-//
+//所有文件(.)添加到暂存区
 git add .
-//添加到 形成快照
+//添加到版本库,形成快照
 git commit -m "init project"
 git status
 ```
-
-注：  
-仓库分为工作区 暂存区 提交区。   
-- 文件夹即是工作区。  
-- 使用git add 命令添加文件到暂存区（stage）。  
-- 使用git commit 添加文件到版本库？（commit .git文件夹中的快照信息）。
-- git status 可以产看被commit的文件（工作区和暂存区的状态）
-
-![git仓库](/git_2/1.png)
-
-
-`git push origin master `
-
+<!-- more -->
+现在使用`git push origin master `push到远程仓库上,会报如下错误,显示你并没有指定对应的远程仓库。
 ```bash
  fatal: 'origin' does not appear to be a git repository
  fatal: Could not read from remote repository.
  Please make sure you have the correct access rights
  and the repository exists.
 ```
-### 2.创建项目
+### 2.GitHub上创建项目并在本地提交项目
 在github（gitee/gitlab）上创建新项目，并且拿到对应的空项目的https（http）/ssh路径。  
 
 例如我创建了`git@github.com:loyalvi/hexo.git`这个项目。

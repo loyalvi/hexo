@@ -6,10 +6,10 @@ tags:
 - blog
 ---
 
-## 安装部署
-　　
-　　安装部署比较简单,看官方文档很快就解决了,不过现在还有个遗留问题:`GitHub上的代码是编译后的文件,源码没有上传到git上`之后有时间在研究。
+使用hexo制作个人博客
 
+### 安装部署
+　　安装部署比较简单,看官方文档很快就解决了
 ### 安装hexo
 ```JavaScript {.line-numbers}
     npm install hexo-cli -g
@@ -83,6 +83,12 @@ tags:
 - PS3
 - Games
 ```
+
+
+## 小技巧
+ - 在要显示的文字末尾添加如下代码实现文章在主页的折叠显示`<!-- more -->`  
+ - 首行缩进 `&ensp;` //相当于1个中文，2字节
+ - `"hexo-asset-image": "git+https://github.com/CodeFalling/hexo-asset-image.git"`图片预览插件
 ## TODO
 [ ] 源码上git
 [ ] 安装主题
