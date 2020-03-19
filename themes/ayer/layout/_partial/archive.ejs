@@ -6,7 +6,7 @@
     if (page.tag) title = "#" + "&nbsp" + page.tag;
     if (page.archive) {
       if (page.year) title = page.year + (page.month ? '/' + page.month : '');
-      else title = __('archive_a');
+      else title = __('archive_a') + "(" +site.posts.length +")";
     }
     %>
     <% if (pagination !== 2){ %>
