@@ -3,7 +3,8 @@ title: 书签管理
 date: 2020-03-18 17:26:04
 tags:
 - dictionary
-categories: tools
+
+categories: ["字典"]
 ---
 
 归档所有书签目录结构
@@ -62,3 +63,4 @@ categories: tools
 	* 英文手写
 	* 视频剪辑
 
+## 书签管理

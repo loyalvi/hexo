@@ -2,9 +2,10 @@
 title: markdown - Hbuilder
 date: 2020-03-15 17:14:00
 updated: 
-categories: tools
 tags: 
 - Markdown
+
+categories: ["字典"]
 ---
 完全转发Hbuilder帮助文档,删减一些
 
